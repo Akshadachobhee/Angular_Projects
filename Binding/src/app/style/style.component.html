@@ -1,0 +1,23 @@
+<h2>Demonstration of style binding</h2>
+<h1>Marvellous Infosystems</h1>
+<h1 [style.color] = "'red'">Marvellous Infosystems</h1>
+<h1 [style.color] = "'green'">Marvellous Infosystems</h1>
+<h1 [style.color] ="Mycolor" >Marvellous Infosystems</h1> <!---->
+<h1 [style.color] = "Isset ? 'pink' : 'red'">Marvellous Infosystems</h1>
+
+<h2>Demonstration of class binding</h2>
+<!--Class binding-->
+<h1>Demostration of class binding</h1>
+<h1 class = "success">Demostration of class binding</h1>
+<h1 class = "failure">Demostration of class binding</h1>
+
+<!--Class binding + Style binding -->
+<h1 [class] = "myclass">Demostration of class binding + style binding</h1>
+<h1 [class.success] = "Isset">Demostration of class binding + style binding + Conditional styling + </h1>
+
+<h2>Demonstration of Event binding</h2>
+<button (click) = "MyAction()">Submit</button>
+<H1>{{Data}}</H1>
+
+<h1>Dollar event</h1>
+<button (click) = "MyActionNew($event)">NewButton</button>
