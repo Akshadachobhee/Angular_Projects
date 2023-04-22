@@ -1,0 +1,6 @@
+<h3 style="color: blueviolet;">Example for Parent to child, child to parent Inter Component Communication</h3>
+<h1>Inside Parent Component</h1>
+<h6>RENDERING</h6>
+
+<app-demo (Myevent)= "MessageFromChild = $event" [MessageFromParent] = "Message" ></app-demo>
+<h1>{{MessageFromChild}}</h1>
