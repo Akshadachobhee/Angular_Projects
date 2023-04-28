@@ -1,0 +1,30 @@
+<h2>String Pipe</h2>
+<h1>{{name}}</h1>
+<h1>{{name | lowercase}}</h1>
+<h1>{{name | uppercase}}</h1>
+<h1>{{name | titlecase}}</h1>
+
+<h1>{{name | slice : 7}}</h1><br>
+<h2>Date pipe</h2>
+<h1>{{today}}</h1> <!--Without pipe-->
+<h1>{{today | date}}</h1>
+<h1>{{today | date : 'short'}}</h1>
+<h1>{{today | date : 'shortDate'}}</h1>
+<H1>{{today | date : 'shortTime'}}</H1><bR>
+
+    <h2>Number Pipe</h2>
+ <h1>{{value}}</h1> 
+ <h1>{{value | number : '1.2-3'}}</h1>
+ <h1>{{value | number : '4.2-3'}}</h1>
+ <h1>{{value | number : '1.5-6'}}</h1><br>
+
+ <h2>json Pipe</h2>
+ <h1>{{Institute}}</h1>
+ <h1>{{Institute | json}}</h1>
+
+ <h2>There are so many pipes</h2>
+
+<h1>Custom pipe - see inside console.log by inspecting</h1>
+
+<h1>{{name | marvellous : "PPA"}}</h1>
+<h1>{{name | marvellous : "LB"}}</h1>
